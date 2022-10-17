@@ -1,0 +1,28 @@
+export default [
+    {
+        userImage: '../../images/kakarot.jpg',
+        userName: 'kakarot',
+        userAccount: 'kakarot',
+        time: '3 days ago',
+        image: '../../images/the weekend.jpg',
+        title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs',
+        innerContent: 'Sed vel sollicitudin elit. Vestibulum sed purus ut sapien feugiat ultricies a vel ipsum. Proin consequat varius augue, et blandit massa luctus commodo. ',
+        website: 'the weekend.com',
+        reply: '9556523',
+        retuit: '9526',
+        like: '100000k',
+    },
+    {
+        userImage: '../../images/flower.png',
+        userName: 'flower',
+        userAccount: 'smile flower',
+        time: 'jun 30',
+        image: '../../images/ironman.jpg',
+        title: '',
+        innerContent: '',
+        website: '',
+        reply: '3.9k',
+        retuit: '6k',
+        like: '100k',
+    },
+];
