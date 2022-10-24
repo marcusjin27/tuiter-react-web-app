@@ -1,20 +1,14 @@
 import React from "react";
 import whoArray from './who.json';
-import WhoToFollowListItem
-    from "./who-to-follow-list-item";
+import WhoToFollowListItem from "./who-to-follow-list-item";
+import "./index.css";
 
 const WhoToFollowList = () => {
     return(
         <ul className="list-group">
-            <li className="list-group-item">
-                <span className="fw-bolder fs-14">Who to follow</span>
-            </li>
             {
                 whoArray.map(who =>
-                    <WhoToFollowListItem
-                        key={who._id}
-                        who={who}/>
-                )
+                    <WhoToFollowListItem who={who}/>)
             }
         </ul>
     );

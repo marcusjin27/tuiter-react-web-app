@@ -11,15 +11,23 @@ const PostSummaryItem = (
     }
 ) => {
     return(
-        <li className="list-group-item">
+        <li className="list-group-item m-0">
             <div className="row">
                 <div className="col-10">
-                    <div>{post.userName} . {post.time}</div>
-                    <div className="fw-bolder">{post.topic}</div>
-                    <div>{post.title}</div>
+                    <div>
+                        <span className="fw-bolder wd-medium-font">{post.userName}</span>
+                        <i className="bi bi-patch-check-fill text-primary ms-1 me-1 wd-medium-font"/>
+                        <span className="text-secondary wd-medium-font wd-light-grey"> · {post.time}</span>
+                    </div>
+                    <div className="text-secondary wd-medium-font wd-light-grey">
+                        {post.topic}
+                    </div>
+                    <div className="fw-bolder wd-medium-font">
+                        {post.title}
+                    </div>
                 </div>
-                <div className="col-2">
-                    <img width={70} className="float-end rounded-3" alt ="post-item" src={`/images/${post.image}`}/>
+                <div className="col-2 d-flex">
+                    <img alt="text" width={70} className="float-end my-auto rounded-3" src={`/images/${post.image}`}/>
                 </div>
             </div>
         </li>

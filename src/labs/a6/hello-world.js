@@ -1,10 +1,11 @@
-import Nav from "../../nav.js";
+import Nav from "../../nav";
+
 function HelloWorld() {
-    return (
+    return(
         <div>
             <Nav/>
             <h1>Hello World!</h1>
         </div>
     );
-}
+};
 export default HelloWorld;

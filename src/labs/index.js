@@ -1,7 +1,8 @@
 import Assignment6 from "./a6";
-import Nav from "../nav.js";
+import Nav from "../nav";
+
 function Labs() {
-    return (
+    return(
         <div>
             <Nav/>
             <Assignment6/>

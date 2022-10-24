@@ -5,18 +5,22 @@ const WhoToFollowListItem = (
     }
 ) => {
     return(
-        <li className="list-group-item">
+        <li className="list-group-item m-0">
             <div className="row">
-                <div className="col-2">
-                    <img className="rounded-circle" alt="avatar" height={48} src={who.avatarIcon}/>
+                <div className="col-2 d-flex p-1">
+                    <img alt="text" className="float-end my-auto rounded-circle" src={`/images/${who.avatarIcon}`} height={48}/>
                 </div>
-                <div className="col-8">
-                    <span className="fw-bold text-black small">{who.userName}<i
-                        className="fa-solid fa-circle-check text-black ps-2"></i></span>
-                    <div className="text-black small">@{who.handle}</div>
+                <div className="col-6">
+                    <div>
+                        <span className="fw-bolder wd-ml-font">{who.userName}</span>
+                        <i className="bi bi-patch-check-fill text-primary ms-1 me-1 wd-ml-font"/>
+                    </div>
+                    <div className="text-secondary wd-medium-font wd-light-grey">@{who.handle}</div>
                 </div>
-                <div className="col-2">
-                    <button className="btn btn-primary rounded-pill float-end">Follow</button>
+                <div className="col-4 d-flex">
+                    <button className="btn btn-light wd-medium-font rounded-pill my-auto wd-button text-light">
+                        Follow
+                    </button>
                 </div>
             </div>
         </li>
