@@ -1,0 +1,14 @@
+{
+  "firstName": "Goku",
+  "lastName": "kakarot",
+  "handle": "@nhall",
+  "profilePicture": "nodejs.png",
+  "bannerPicture": "kakarot.jpg",
+  "bio": "Praesent laoreet purus tellus, sit amet pellentesque elit pulvinar vitae. Donec tempus commodo aliquet. Vestibulum imperdiet erat a orci pulvinar imperdiet.",
+  "location": "United States of America,Boston,MA",
+  "dateOfBirth": "2/8/2020",
+  "dateJoined": "8/2019",
+  "followingCount": 340,
+  "followersCount": 288,
+  "twuitCount": 562
+}

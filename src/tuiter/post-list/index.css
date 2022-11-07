@@ -1,6 +1,6 @@
 .wd-border-solid {
     border-width: 1px;
-    border-color: rgb(213, 211, 211);
+    border-color: rgb(210, 221, 221);
     border-style: solid;
 }
 
@@ -34,4 +34,8 @@
 
 .wd-full-image {
     width: 100%;
+}
+
+.wd-red {
+    color: rgba(250, 60, 60, 0.94);
 }
