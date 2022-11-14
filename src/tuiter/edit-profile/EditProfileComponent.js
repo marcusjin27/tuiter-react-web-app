@@ -64,7 +64,7 @@ const EditProfile = () => {
             </div>
             <div className="row m-2">
                 <div className="col-12">
-                    <img src={`/images/${profile.profilePicture}`} width={110} height={110}
+                    <img src={`/images/${profile.profilePicture}`} width={120} height={120}
                          className="rounded-circle ms-3 wd-profile-image p-1" alt="text"/>
                 </div>
             </div>
