@@ -1,17 +1,18 @@
-import TodoItem from "./todo-item";
-import todos from "./todos.json";
-const TodoList = () => {
-    return(
-        <>
-            <h3>Todo List</h3>
-            <ul>
-                {
-                    todos.map(todo => {
-                        return(<TodoItem todo={todo}/>);
-                    })
-                }
-            </ul>
-        </>
+const TodoItem = (
+    {
+        todo = {
+            done: true,
+            title: 'Buy milk',
+            status: 'COMPLETED'
+        }
+    }) => {
+    return (
+        <li>
+            <input type="checkbox"
+                   defaultChecked={todo.done}/>
+            {todo.title}
+            ({todo.status})
+        </li>
     );
 }
-export default TodoList;
+export default TodoItem;
