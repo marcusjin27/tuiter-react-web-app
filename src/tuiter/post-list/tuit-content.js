@@ -13,7 +13,7 @@ const TuitContent = (
             image: './images/monkeys.jpg',
             title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs',
             innerContent: "Curabitur lobortis leo ut sem tincidunt, rutrum rhoncus neque vestibulum. Aenean at augue vitae ante efficitur mollis. Vivamus congue eros vitae ligula ullamcorper pulvinar. ",
-            website: 'seal.com',
+            website: 'monkey.com',
         }
     }
 ) => {

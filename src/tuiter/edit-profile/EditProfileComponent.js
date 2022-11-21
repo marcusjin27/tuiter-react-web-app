@@ -10,7 +10,7 @@ const EditProfile = (
             "firstName": 'firstName',
             "lastName": 'lastName',
             "profilePicture": 'nodejs.png',
-            "bannerPicture": 'seal.jpg',
+            "bannerPicture": 's.jpg',
             "bio": 'Faculty, Software Engineer, AI, Space, and renewable enthusiast. Retuits and likes are not endorsements.',
             "location": 'Boston, MA',
             "dateOfBirth": 'DOB',
