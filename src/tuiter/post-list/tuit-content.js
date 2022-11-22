@@ -10,7 +10,7 @@ const TuitContent = (
                 time: "t",
                 content: "Quisque mattis lorem ut neque tincidunt, sed dapibus felis mattis. Suspendisse in consectetur ipsum. Maecenas facilisis, dolor in pretium commodo, ex neque pharetra dui"
             },
-            image: './images/monkeys.jpg',
+            image: './images/lasvegas.jpg',
             title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs',
             innerContent: "Curabitur lobortis leo ut sem tincidunt, rutrum rhoncus neque vestibulum. Aenean at augue vitae ante efficitur mollis. Vivamus congue eros vitae ligula ullamcorper pulvinar. ",
             website: 'seal.com',
