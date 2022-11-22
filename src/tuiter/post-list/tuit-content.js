@@ -4,8 +4,8 @@ const TuitContent = (
         post = {
             isRetuit: true,
             retuitPost: {
-                userImage: "156",
-                userName: "2222",
+                userImage: "1",
+                userName: "2",
                 userAccount: "account",
                 time: "t",
                 content: "Quisque mattis lorem ut neque tincidunt, sed dapibus felis mattis. Suspendisse in consectetur ipsum. Maecenas facilisis, dolor in pretium commodo, ex neque pharetra dui"
